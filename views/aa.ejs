@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Assignment
+        </title>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+        <script src="/assets/aaa.js"></script>
+        <!--<link href="/assets/styles.css" rel="stylesheet" type="text/css" />-->
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <div id="formdetails">
+            <form>
+                Enter name :<input type="text" id="1" name="Name" placeholder="Enter name..." required /><br/>
+                Enter Email :<input type="email" id="2" name="Email" placeholder="Enter email..." required /><br/>
+                Enter Contact number :<input type="number" id="3" name="Number" min="1000000000" max="9999999999"  placeholder="Enter 10 digit number..." required /><br/>
+                Course Level :<select name="Course" id="4" required>
+                    <option>Select</option>
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                </select><br/>
+                Country Preferences :
+                <select name="Country" id="5" multiple required>
+                        <!--[USA, Australia,
+                        New-Zealand, Canada, UK, Ireland, Germany]-->
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                    <option value="New-Zealand">New-Zealand</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Germany">Germany</option>
+                </select><br/>
+                Enter Date of Birth :<input type="date" id="6" name="Date"><br/>
+                <button type="submit">Add item</button>
+            </form>
+            <br/><br/><br/><br/><br/>
+            <!--<form>
+                Enter : <input type="email" name="emaill" required>
+                <button type="submit">Fetch</button>
+                <ul>
+                        <% for(var i=0;i < details.length; i++){ %>
+                            <li><%= details[i].name %></li>
+                        <% } %>
+                </ul>
+            </form>-->
+        </div>
+    </body>
+</html>
