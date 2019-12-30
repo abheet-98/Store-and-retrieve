@@ -14,9 +14,9 @@
 13.The details of user is fetched from Database and is displayed on this page.\
 
 
-
-app.js is the main entry file.\
-aa.ejs, bb.ejs, cc.ejs and dd.ejs are separate view files.\
-acontroller.js is the controller file which is used to handle the db connection and various routes.\
-aaschema.js is the file which defines the schema of the db.\
-aaa.js and bbb.js are the jquery files handling the form submission.\
+# Files:
+1.app.js is the main entry file.\
+2.aa.ejs, bb.ejs, cc.ejs and dd.ejs are separate view files.\
+3.acontroller.js is the controller file which is used to handle the db connection and various routes.\
+4.aaschema.js is the file which defines the schema of the db.\
+5.aaa.js and bbb.js are the jquery files handling the form submission.\
