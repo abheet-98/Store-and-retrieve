@@ -1,4 +1,4 @@
-#Steps to be followed\
+# Steps to be followed\
 1.The first step is to unzip the assignment.zip file.\
 2.After this open the assignment folder in any code editor like visual studio code or sublime.I have used visual studio code.\
 3.Change the url of the mongoose.connect command in acontroller.js file.I have used the mongodb atlas to host the database on cloud.\
