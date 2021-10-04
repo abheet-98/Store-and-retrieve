@@ -20,3 +20,6 @@
 3.acontroller.js is the controller file which is used to handle the db connection and various routes.\
 4.aaschema.js is the file which defines the schema of the db.\
 5.aaa.js and bbb.js are the jquery files handling the form submission.\
+
+
+This is the appropriate way of justifying the usage of Java Script.
